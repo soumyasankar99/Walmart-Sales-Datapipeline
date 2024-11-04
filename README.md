@@ -76,13 +76,17 @@ Use a virtual environment if desired, then install PySpark.
 
 
 
-> [!NOTE] :smile:
+> [!NOTE] 
 >Ensure that the dataset files (customers.tsv and salestxns.tsv) are correctly placed in the specified paths. Any change in file location requires updating the paths in the code.
+
 >Be aware of the exact column names in the TSV files. Names in the customers.tsv and salestxns.tsv files might contain spaces or extra characters, so check and match them exactly.
+
 >Convert columns like Price to float and Quantity to int for accurate calculations.
+
 >The join operation relies on matching Customer_Id between the DataFrames. Ensure that column names are identical after loading to avoid AnalysisException errors.
 
 > [!TIP]
+
 > PySpark is case-sensitive. When referencing columns in queries, ensure names match exactly as in the DataFrame schema.
 
 
