@@ -50,7 +50,7 @@ Using the PySpark framework, we answer the following questions:
 
 10. **Detailed Customer Purchase Report**
 
-#### **Code Structure**
+## **Code Structure**
 
 The project follows a modular structure with clearly defined functions for each step:
 
@@ -61,7 +61,7 @@ The project follows a modular structure with clearly defined functions for each 
 **Analysis Queries**: Answers each of the 10 questions with structured PySpark SQL queries.
 
 
-#### Insights and Results
+## Insights and Results
 Below are insights gained from each query:
 
 1.**Total Number of Unique Customers:** Count of unique customers in the dataset.
