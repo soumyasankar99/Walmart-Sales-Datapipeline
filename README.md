@@ -65,27 +65,26 @@ Below are insights gained from each query:
 
 #### Install dependencies: 
 Use a virtual environment if desired, then install PySpark.
-``` !pip install PySpark
+```
+!pip install PySpark
+```
 
+# Project Documentation
 
-> [!NOTE] 
->Ensure that the dataset files (customers.tsv and salestxns.tsv) are correctly placed in the specified paths. Any change in file location requires updating the paths in the code.
-Be aware of the exact column names in the TSV files. Names in the customers.tsv and salestxns.tsv files might contain spaces or extra characters, so check and match them exactly.
-Convert columns like Price to float and Quantity to int for accurate calculations.
-The join operation relies on matching Customer_Id between the DataFrames. Ensure that column names are identical after loading to avoid AnalysisException errors.
+> **📝 Note**  
+> Essential details that users should not overlook, even when browsing quickly.
 
-> [!TIP]
-> PySpark is case-sensitive. When referencing columns in queries, ensure names match exactly as in the DataFrame schema.
+> **💡 Tip**  
+> Additional advice to aid users in achieving better outcomes.
 
+> **⚠️ Important**  
+> Vital information required for users to attain success.
 
-> [!IMPORTANT]
->PySpark requires a proper Java environment. Make sure Java is installed and accessible from your terminal before running PySpark.
+> **🚨 Warning**  
+> Urgent content that requires immediate user focus due to possible risks.
 
-> [!WARNING]
-> Large datasets can lead to high memory usage during group-by or join operations. Consider adjusting Spark’s memory settings or running the project on a cluster if your dataset is large.
-
-> [!CAUTION]
-> Handle potential errors in the pipeline, like missing values, incorrect data formats, or mismatched columns. Include checks or validation steps in the code to improve robustness.
+> **⚠️ Caution**  
+> Possible negative outcomes resulting from an action.
 
 
 ### Installation
