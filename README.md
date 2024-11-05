@@ -25,7 +25,7 @@ The project uses two tab-separated files:
 
 2. **salestxns.tsv**: Contains sales transaction details with columns `Sales Txn Id`, `Category Id`, `Category Name`, `Product Id`, `Product Name`, `Price`, `Quantity`, `Customer Id`.
 
-Dataset link: [Download Here][(https://docs.google.com/document/d/1b7UAYtTUZbXjuoGCQwsFHiBHBkM91Q8BFSPJ_zeIF6k/edit?tab=t.0))]
+Dataset link: [Download Here][(https://docs.google.com/document/d/1b7UAYtTUZbXjuoGCQwsFHiBHBkM91Q8BFSPJ_zeIF6k/edit?tab=t.0)]
 
 ## Problem Statement
 Using the PySpark framework, we answer the following questions:
