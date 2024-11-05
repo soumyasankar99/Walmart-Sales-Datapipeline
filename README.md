@@ -101,7 +101,8 @@ Use a virtual environment if desired, then install PySpark.
 # Project Documentation
 
 > **📝 Note**  
-> Ensure that the dataset files (customers.tsv and salestxns.tsv) are correctly placed in the specified paths. Any change in file location requires updating the paths in the code.
+> Ensure that the dataset files (customers.tsv and salestxns.tsv) are correctly placed in the specified paths.
+> Any change in file location requires updating the paths in the code.
 > Be aware of the exact column names in the TSV files. Names in the **Coustomer.tsv** and **salestxns.tsv** files might contain spaces or extra characters, so check and match them exactly.
   Convert columns like Price to float and Quantity to int for accurate calculations.
 
