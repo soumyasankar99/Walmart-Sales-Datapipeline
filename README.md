@@ -18,6 +18,8 @@ This project demonstrates a data pipeline for analyzing Walmart sales and custom
 - The analysis is achieved by performing SQL-like transformations on large datasets, with results providing actionable insights.
 
 ### Technologies Used
+![Walmart Sales Analysis Pipepline (1)](https://github.com/user-attachments/assets/8658f552-00a4-488b-bd3a-7dbd80c5cf69)
+
 - **Python**
 - **PySpark**
 - **SQL**
