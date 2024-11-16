@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-![Walmart Sales Analysis Pipepline](https://github.com/user-attachments/assets/897cb650-d692-4a9f-94ba-06ca6db52f57)
+![Walmart Sales Analysis Pipepline](https://github.com/user-attachments/assets/fa3f51ea-42eb-4e0f-85fa-cdc8028bd6f2)
 
 
 This project demonstrates a data pipeline for analyzing Walmart sales and customer data using PySpark. Through the pipeline, we answer key business questions such as :
